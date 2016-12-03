@@ -13,7 +13,7 @@
 
 * Paste the code in gpa_*.js into the console, for example, the code below calculate overall GPA.
     ```
-    var all_div = document.getElementsByTagName("div");
+    var all_div = document.getElementsByTagName("td");
     function isInt(x) {
         var y = parseInt(x, 10);
         return !isNaN(y) && x == y && x.toString() == y.toString();
@@ -22,27 +22,23 @@
     sum_credit = 0
     sum_score = 0
 
-    for (i = 17; i < all_div.length; i+=8) {
-        if (!isInt(all_div[i+2].innerText)) {
+    for (i = 9; i < all_div.length - 11; i+=11) {
+        if (!isInt(all_div[i+2].getElementsByTagName("div")[0].innerText)) {
             continue;
         }
-        sum_credit += parseInt(all_div[i].innerText);
-        sum_score += parseInt(all_div[i].innerText)*parseInt(all_div[i+2].innerText);
+        sum_credit += parseInt(all_div[i].getElementsByTagName("div")[0].innerText);
+        sum_score += parseInt(all_div[i].getElementsByTagName("div")[0].innerText)
+            *parseInt(all_div[i+2].getElementsByTagName("div")[0].innerText);
     }
 
     sum_score / sum_credit
     ```
 * Then you will get your GPA!
 
-# Warning
-* Currently only work when there is no item in "Substitute course (替代课程)" and "Mark of special course (特殊课程标志)".
-
 # Functions
 * **[gpa_overall.js](gpa_overall.js)** Calcualte overall GPA
 * **[gpa_required.js](gpa_required.js)** Calcualte GPA for Required (必修) and Restricted Elective (限选).
-* **[convert_to_4.js](convert_to_4.js)** An example 
+* **[convert_to_4.js](convert_to_4.js)** An example to calculate 4 scale GPA.
 
 # TODOs
-* Convert 100 scale GPA to US 4.0 scale. Refer to [this](http://www.foreigncredits.com/Resources/GPA-Calculator/).
 * Calculate GPA for the last two years.
-* Handle "Substitute course (替代课程)" and "Mark of special course (特殊课程标志)".
