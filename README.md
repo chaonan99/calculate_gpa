@@ -1,12 +1,16 @@
 # Calculate GPA for Tsinghua
-* These set of scripts can be used to calculate GPA
+* These set of scripts can be used to calculate GPA.
+* Star this repo if you like it~
 
 # Step-by-Step Instruction
 * Login in to [info](http://info.tsinghua.edu.cn/).
 * Enter "全部成绩"
+
     ![all score](img/all_credit.png)
 * Open "Developer tool". The short-cut for Chrome is <kbd>F12</kbd> (or <kbd>Fn</kbd>+<kbd>F12</kbd>). Then open "Console".
+
     ![console](img/console.png)
+
 * Paste the code in gpa_*.js into the console, for example, the code below calculate overall GPA.
     ```
     var all_div = document.getElementsByTagName("div");

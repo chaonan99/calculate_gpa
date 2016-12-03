@@ -1,3 +1,8 @@
+/*********************
+Cauculate overall GPA
+Author: chaonan99
+Date: 12/03/2016
+**********************/
 var all_div = document.getElementsByTagName("div");
 function isInt(x) {
     var y = parseInt(x, 10);
