@@ -40,3 +40,6 @@
 * **[gpa_required.js](gpa_required.js)** Calcualte GPA for Required (必修) and Restricted Elective (限选).
 * **[gpa_last_two.js](gpa_last_two.js)** Cauculate GPA in the last two years.
 * **[convert_to_4_scale.js](convert_to_4_scale.js)** An example to calculate 4 scale GPA.
+
+# License
+* [MIT](LICENSE)
