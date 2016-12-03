@@ -40,8 +40,9 @@
 # Functions
 * **[gpa_overall.js](gpa_overall.js)** Calcualte overall GPA
 * **[gpa_required.js](gpa_required.js)** Calcualte GPA for Required (必修) and Restricted Elective (限选).
+* **[convert_to_4.js](convert_to_4.js)** An example 
 
 # TODOs
-* Convert 100 scale GPA to US 4.0 scale. Refer to [this](http://www.foreigncredits.com/Resources/GPA-Calculator/)
+* Convert 100 scale GPA to US 4.0 scale. Refer to [this](http://www.foreigncredits.com/Resources/GPA-Calculator/).
 * Calculate GPA for the last two years.
 * Handle "Substitute course (替代课程)" and "Mark of special course (特殊课程标志)".
