@@ -1,5 +1,5 @@
 /*********************
-Cauculate overall GPA
+Cauculate overall GPA, 4.0 scale
 Author: chaonan99
 Date: 12/03/2016
 **********************/

@@ -36,9 +36,7 @@
 * Then you will get your GPA!
 
 # Functions
-* **[gpa_overall.js](gpa_overall.js)** Calcualte overall GPA
+* **[gpa_overall.js](gpa_overall.js)** Calcualte overall GPA.
 * **[gpa_required.js](gpa_required.js)** Calcualte GPA for Required (必修) and Restricted Elective (限选).
+* **[gpa_last_two.js](gpa_last_two.js)** Cauculate GPA in the last two years.
 * **[convert_to_4.js](convert_to_4.js)** An example to calculate 4 scale GPA.
-
-# TODOs
-* Calculate GPA for the last two years.
