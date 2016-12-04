@@ -100,6 +100,8 @@
     ```
 * Then you will get your GPA!
 
+    ![result](img/result.png)
+
 # Warning
 * The method used to calculate 4.0 scale GPA may vary between schools. The method used in this script is just for reference.
 
