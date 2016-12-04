@@ -73,10 +73,10 @@ for (i = begin_ind; i < all_div.length - 11; i+=11) {
 
 alert("你的GPA\n"
 + "所有课程 GPA: {0}/100, {1}/4.0\n".format(
-    (sum_score[0]/sum_credit[0]).toFixed(2), (sum_score_four[0]/sum_credit[0]).toFixed(1))
+    (sum_score[0]/sum_credit[0]).toFixed(2), (sum_score_four[0]/sum_credit[0]).toFixed(3))
 + "必修限选 GPA: {0}/100, {1}/4.0\n".format(
-    (sum_score[1]/sum_credit[1]).toFixed(2), (sum_score_four[1]/sum_credit[1]).toFixed(1))
+    (sum_score[1]/sum_credit[1]).toFixed(2), (sum_score_four[1]/sum_credit[1]).toFixed(3))
 + "近两年所有课程 GPA: {0}/100, {1}/4.0\n".format(
-    (sum_score[2]/sum_credit[2]).toFixed(2), (sum_score_four[2]/sum_credit[2]).toFixed(1))
+    (sum_score[2]/sum_credit[2]).toFixed(2), (sum_score_four[2]/sum_credit[2]).toFixed(3))
 + "近两年必修限选 GPA: {0}/100, {1}/4.0\n".format(
-    (sum_score[3]/sum_credit[3]).toFixed(2), (sum_score_four[3]/sum_credit[3]).toFixed(1)))
+    (sum_score[3]/sum_credit[3]).toFixed(2), (sum_score_four[3]/sum_credit[3]).toFixed(3)))
